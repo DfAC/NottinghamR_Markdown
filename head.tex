@@ -1,0 +1,45 @@
+%\documentclass[11pt]{beamer} 
+
+%\usetheme{metropolis} %https://github.com/matze/mtheme
+\metroset{everytitleformat = regular,progressbar=foot} %settings
+\mode<presentation>
+%\usecolortheme{dove} %dove
+% albatross, beaver, beetle, crane, default, dolphin, dove, orchid, rose, seagull, seahorse, whale, wolverine
+%dont use  fly, lily,
+%http://mirror.ox.ac.uk/sites/ctan.org/macros/latex/contrib/beamer/doc/beameruserguide.pdf
+\setbeamercolor{title separator}{fg = UniBlue}
+\setbeamercolor{frametitle}{fg = deepBlue, bg=aBlue!40}
+
+\usepackage{booktabs}
+\usepackage[scale=2]{ccicons}
+\usepackage{pgfplots}
+\usepgfplotslibrary{dateplot}
+%\usepackage[demo]{graphicx}
+\usepackage[font={small,it}]{caption}
+\usepackage{subcaption} %throws a lot of errors but compile
+
+%%LOGO
+% \usepackage{tikz}
+% \addtobeamertemplate{frametitle}{}{%
+% \begin{tikzpicture}[remember picture,overlay]
+% \node[anchor=north east,yshift=2pt] at (current page.north east) {\includegraphics[height=0.8cm]{./pics/combinedLogo.png}};
+% \end{tikzpicture}}
+
+\input{Preamble.tex}
+%\renewcommand{\baselinestretch}{1.2} %line spacing
+%{\setstretch{1.0}\color{blue} text bla bla } for section strech
+\renewcommand{\footnotesize}{\scriptsize} %change footnote sizes
+%\usepackage{lipsum} % for dummy text only
+
+%Grey text
+\definecolor{shadecolor}{RGB}{190,190,190}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title[ION]{GNSS Receivers Jamming Resilience in the Close to the Shore Navigation Scenario}
+%\subtitle{\thisDocRef}
+
+\author{Lukasz Bonenberg, University of Nottingham\\Oeystein Glomsvoll, The Royal Norwegian Naval Academy}
+\institute{Lukasz.Bonenberg@nottingham.ac.uk\\ oglomsvoll@sksk.mil.no}
+%\date{\today}
+\date{}
+

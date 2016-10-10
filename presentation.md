@@ -1,4 +1,9 @@
-# toc
+---
+author:
+- LKB
+---
+
+## toc
 
 We are going to cover:
 
@@ -7,48 +12,69 @@ We are going to cover:
 * why not
 * practical examples
 
+# Intro
 
-# Introduction
+## Introduction
+
+Microsoft Office is the most widely used office suite for a number of years now, mostly due to relative easy learning curve and  initial flexibility.
 
 Today I am going to discuss  few diff tools that you can use to carry out some of Microsoft Office tasks. The aim behind this talk is to address the balance between those two statements:
 
-* Change for the sake of change is rarely a sensible use of time
-* Tools have to fit the purpose
+* Change for the sake of change is rarely a sensible use of time.
+* Tools have to fit the purpose.
 
-Before I progress any further what I can say is that discussion can be simplified to
+Before I wenture any further I would like to discuss topic that seems a bit unrelated, that is Word vs Latex discusion.
 
-# Lx vs Word
+## Lx vs Word
 
-On some level this can be simplified to traditional discussion between Word and Latex users. On one side Latex users argument can be presented as
+
+
+A common conception is that Latex is predominantly of academic use, due to a steep learning curve, and while it handles complex equation and big documents well, it fares poorly when comparing the writing efficiency, especially when the grammar is considered.
+Latex users argument can be presented in  a simple graph as
 
 ![](http://www.pinteric.com/pic/miktex.gif)
 
+Microsoft Office user argument would be the first sentence and highligh of how easy it is to start
 
 ---
 
-A common misconception is that Latex is predominantly of academic use, due to a steep learning curve, and while it handles complex equation and big documents well, it fares poorly when comparing the writing efficiency, especially when the grammar is considered. This has even lead to [a academic paper](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115069).
+Academic use paragim, a steep learning curve and compex syntax even lead to [a academic paper](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115069). Discussion of any other tools, has to address those comments as well.
 
 
-# Take a step back
+## Take a step back
 
-This is correct but in reality we should discuss the different paragim:
+So before I progress any further in this discussion I would like to bring attention to my second sentence. Let's ask some questions:
+
+* what is the main goal of my work?
+* what is the most productive use of my time?
+* what is the added value that I bring to the table?
+* how much control do I want over the deocuments I produce? How much data fidelity do I require?
+* how often do I need to change document following commentd?
 
 * what is more important for me? The visuals or the content?
 * how often do I need to change content of my presentation?
 * how much animation ect do I need in my presentation?
 * how much interaction is required with my report? Do I need to verify the findings, change the report?
 
+## Discussion
 
-# What tools do we discuss here
+## Deep Thinking concept
 
-# Report example
+Link to the book
 
-# Pp example
+## What tools do we discuss here
+
+With this gone, lets focus on discussing the tools that I am suggesting on using.
+
+
+## Report example
+
+## Pp example
 
 discuss how to do it
 
 
-# Why do I suggest this
+## Why do I suggest this
 
 Change for the sake of change is rarely a sensible use of time
 
@@ -60,7 +86,7 @@ Change for the sake of change is rarely a sensible use of time
 
 #summary
 
-# Q&A
+## Q&A
 
 
-Entropy and disorder boosts #creativity?
+Entropy and disorder boosts ##creativity?
