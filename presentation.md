@@ -22,6 +22,8 @@ fontsize: 11pt
 
 <div class="notes">
 
+[NottinghamR talk](http://www.meetup.com/NottinghamR-Nottingham-R-Users-Group/events/232383634/)
+
 Welcome. My name is. A bit of personal story:
 
 * I started with Word for MSc
@@ -61,12 +63,20 @@ A common perception is that:
 
 ![Complex but worth it](http://www.pinteric.com/pic/miktex.gif)
 
+<div class="notes">
+
+* <http://www.schuetzler.net/blog/latex-vs-word-again/>
+ 	* Latex separates the formatting of the document and the content of the document in a decent, logical way.
+* [another](http://serialmentor.com/blog/2014/12/27/post-publication-review-of-the-plos-one-paper-comparing-ms-word-and-latex-how-not-to-compare-document-preparation)
+	* Even though cumbersome and has its quirks, LaTeX is highly predictable
+
+</div>
 
 ## Microsoft Office perception
 
 
-![text comparison](http://journals.plos.org/plosone/article/figure/image?size=large&id=info:doi/10.1371/journal.pone.0115069.g004){width = 80}
-(An Efficiency Comparison of Document Preparation Systems Used in Academic Research and Development)[http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115069]
+![[An Efficiency Comparison of Document Preparation Systems Used in Academic Research and Development](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115069)](http://journals.plos.org/plosone/article/figure/image?size=large&id=info:doi/10.1371/journal.pone.0115069.g004){width = 80}
+[An Efficiency Comparison of Document Preparation Systems Used in Academic Research and Development](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115069)
 
 <div class="notes">
 
@@ -238,13 +248,15 @@ pandoc --slide-level 2 -H head.tex -B body.tex -t beamer
 * running R code inside presentation
 * [converting back from MSc Office](http://pandoc.org/demos.html) - seamless integration
 * animations + interactive content
+* [Adding Excel](https://beckmw.wordpress.com/2014/06/05/a-simple-workflow-for-using-r-with-microsoft-office-products/)
+* Markdown to PowerPoint
 
 
 # Summary
 
 * simple tool allow to focus on content
 * multiple components allow better flexibility and low entropy
-* content
+* content beats visuals
 
 
 ## useful links
@@ -253,6 +265,7 @@ pandoc --slide-level 2 -H head.tex -B body.tex -t beamer
 	+ [RMarkdown](http://rmarkdown.rstudio.com/)
 	+ [ioslides](http://rmarkdown.rstudio.com/ioslides_presentation_format.html)
 	+ [knit](https://sachsmc.github.io/knit-git-markr-guide/knitr/knit.html)
+* [Online markdown](http://dillinger.io/)
 * Pandoc
 	+ [try online](http://pandoc.org/try/)
 	+ [check demos](http://pandoc.org/demos.html)
@@ -270,4 +283,7 @@ lkbonenberg@gmail.com
 
 @LKBLab
 
+
+<div class="notes">
 http://www.slideshare.net/LukaszKosmaBonenberg
+</div>
