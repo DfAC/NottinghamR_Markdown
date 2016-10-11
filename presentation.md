@@ -38,11 +38,11 @@ Welcome. My name is. A bit of personal story:
 ![<http://bit.ly/RMeetupNottingham>](./pics/questionnaire.jpg){ width=80% }
 
 * Most interest in:
- + general understanding
- + making presentation + report
+	* general understanding
+	* making presentation + report
 * more RStudio users than Microsoft Office
-* git and Markdown more popular than Latex or Beamer
-* More RMarkdown users than Markdown !
+	* git and Markdown more popular than Latex or Beamer
+	* More RMarkdown users than Markdown !
 
 
 ## Latex vs Word
@@ -75,8 +75,8 @@ A common perception is that:
 ## Microsoft Office perception
 
 
-![[An Efficiency Comparison of Document Preparation Systems Used in Academic Research and Development](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115069)](http://journals.plos.org/plosone/article/figure/image?size=large&id=info:doi/10.1371/journal.pone.0115069.g004){width = 80}
-[An Efficiency Comparison of Document Preparation Systems Used in Academic Research and Development](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115069)
+![[An Efficiency Comparison of Document Preparation Systems Used in Academic Research and Development](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115069)](http://journals.plos.org/plosone/article/figure/image?size=large&id=info:doi/10.1371/journal.pone.0115069.g004)
+
 
 <div class="notes">
 
@@ -101,7 +101,6 @@ Microsoft Office user argue:
 
 The aim behind this talk is to address the balance between those two statements.
 
-</div>
 
 ## What do I mean?
 
@@ -110,14 +109,20 @@ The aim behind this talk is to address the balance between those two statements.
 * How can I maintain the contribution from others? How do we archive documents?
 * What about data fidelity?
 
+</div>
 
 ## Does content matters?
 
 ![Content is king](https://pixabay.com/static/uploads/photo/2013/07/18/10/56/graph-163509_960_720.jpg)
 
+
+## Sum of all parts
+
+![Complexity vs time spend](http://www.intmath.com/blog/wp-content/images/2015/03/exponential-curve.png)
+
 ## Who send what?
 
-![Entropy build up](./pics/disaster.jpg)
+![Entropy builds up](./pics/disaster.jpg)
 
 ## Which is my latest copy?
 
@@ -136,12 +141,6 @@ The aim behind this talk is to address the balance between those two statements.
 
 * [Hawkers in Singapore](https://rpubs.com/JoshMah/168498)
 * [interactive plots](https://plot.ly/r/)
-
-
-## Sum of all parts
-
-![Complexity vs time spend](http://www.intmath.com/blog/wp-content/images/2015/03/exponential-curve.png)
-
 
 ## Deep Work
 
@@ -162,7 +161,7 @@ The aim behind this talk is to address the balance between those two statements.
 
 ## Markdown - Keep it simple
 
-![https://daringfireball.net/projects/markdown/](http://i.imgur.com/Pghp2CU.png){ width=140% }
+![https://daringfireball.net/projects/markdown/](http://i.imgur.com/Pghp2CU.png){ width=120% }
 
 
 <div class="notes">
@@ -187,10 +186,10 @@ The aim behind this talk is to address the balance between those two statements.
 ## Change
 
 * Change for the sake of change is rarely a sensible use of time.
- + How are we going to interact with others?
+	* How are we going to interact with others?
 * Tools have to fit the purpose.
- + How many tools do I need to learn?
- + Who maintain those tools?
+	+ How many tools do I need to learn?
+	+ Who maintain those tools?
 
 <div class="notes">
 
@@ -200,7 +199,7 @@ The aim behind this talk is to address the balance between those two statements.
 
 ## How many tools are we using?
 
-![](http://www.intmath.com/blog/wp-content/images/2015/03/exponential-curve.png)
+![complexity vs effort](http://www.intmath.com/blog/wp-content/images/2015/03/exponential-curve.png)
 
 
 ## Markdown - its too flexible
@@ -220,6 +219,8 @@ There are too many ways of doing things and too many flavours of markdown.
 * Which tools are missing?
 * WHich are important?
 * How easy it is to implement?
+
+## notes from the audience
 
 </div>
 
@@ -254,10 +255,11 @@ pandoc --slide-level 2 -H head.tex -B body.tex -t beamer
 
 # Summary
 
-* simple tool allow to focus on content
-* multiple components allow better flexibility and low entropy
-* content beats visuals
+## Take away notes
 
+* Markdown is one of 20-80 tools - it will cover most of problems with small effort
+* content beats visuals
+* set of small dedicated tools allow better flexibility and low entropy
 
 ## useful links
 
@@ -272,6 +274,8 @@ pandoc --slide-level 2 -H head.tex -B body.tex -t beamer
 * git
 	+ [guide](http://rogerdudler.github.io/git-guide/)
 	+ [try yourself](https://try.github.io/levels/1/challenges/10)
+
+\setbeamercolor{background canvas}{bg=blueBgd!60}
 
 ## Thank you
 
