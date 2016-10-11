@@ -3,8 +3,8 @@
 #author:
 #- LKB
 fontsize: 11pt
-# output: ioslides_presentation
-# output: html_document
+#output: ioslides_presentation
+output: html_document
 <!-- output:
   beamer_presentation:
     theme: metropolis
@@ -30,6 +30,13 @@ Welcome. My name is. A bit of personal story:
 * Latex for PhD, found it amazing and extremely frustrating
 * at similar time discovered interactive RStudio, python
 * looked into simplifying my presentations
+
+* 'f' enable fullscreen mode
+* 'w' toggle widescreen mode
+* 'o' enable overview mode
+* 'h' enable code highlight mode
+* 'p' show presenter notes
+
 
 </div>
 
