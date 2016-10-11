@@ -246,9 +246,9 @@ pandoc 03_FinalReport.rmd --output= 03_FinalRep.docx
 ## Presentation example
 
 ```
-pandoc -t beamer presentation.md -o simple.pdf
+pandoc -t beamer NottinghamR.md -o simple.pdf
 pandoc --slide-level 2 -H head.tex -B body.tex -t beamer
- presentation.md -V theme:metropolis -o Rpresentation.pdf
+ NottinghamR.md -V theme:metropolis -o NottinghamR.pdf
 ```
 
 ## Future work
@@ -266,7 +266,7 @@ pandoc --slide-level 2 -H head.tex -B body.tex -t beamer
 
 * Markdown is one of 20-80 tools - it will cover most of problems with small effort
 * content beats visuals
-* set of small dedicated tools allow better flexibility and low entropy
+* set of small dedicated tools allows for better flexibility and low entropy
 
 ## useful links
 
