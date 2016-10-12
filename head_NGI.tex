@@ -1,0 +1,58 @@
+\metroset{everytitleformat = regular,progressbar=foot} %settings
+\mode<presentation>
+\setbeamercolor{title separator}{fg = UniBlue}
+\setbeamercolor{frametitle}{fg = deepBlue, bg=aBlue!40}
+
+\usepackage{booktabs}
+\usepackage[scale=2]{ccicons}
+\usepackage{pgfplots}
+\usepgfplotslibrary{dateplot}
+%\usepackage[demo]{graphicx}
+\usepackage[font={small,it}]{caption}
+\usepackage{subcaption} %throws a lot of errors but compile
+
+
+%\input{Preamble.tex}
+%\renewcommand{\baselinestretch}{1.2} %line spacing
+%{\setstretch{1.0}\color{blue} text bla bla } for section strech
+\renewcommand{\footnotesize}{\scriptsize} %change footnote sizes
+%\usepackage{lipsum} % for dummy text only
+
+%Text
+\definecolor{shadecolor}{RGB}{190,190,190}
+\definecolor{lightgray}{gray}{0.8} %for colortbl
+\definecolor{UniBlue}{RGB}{83,121,170}
+\definecolor{deepBlue}{HTML}{000066}
+\definecolor{blueBgd}{HTML}{99C8FF}
+\definecolor{aBlue}{HTML}{1879F7}
+
+
+% \setbeamertemplate{footline}[text line]{%
+%   \parbox{0.8\linewidth}{
+%     %\vspace*{-8pt}\insertshorttitle~(\insertshortauthor)
+%     \vspace*{-8pt}lkbonenberg@gmail.com~@LKBLab
+%   }
+%   \hfill%
+%   \parbox{0.15\linewidth}{
+%     \vspace*{-8pt}\raggedleft\insertpagenumber
+%   }
+% }
+
+%%LOGO
+\usepackage{tikz}
+\addtobeamertemplate{frametitle}{}{%
+\begin{tikzpicture}[remember picture,overlay]
+\node[anchor=north east,yshift=2pt] at (current page.north east) {\includegraphics[height=0.8cm]{./pics/UoN_logo.png}};
+\end{tikzpicture}}
+
+%\newcommand{\thisDocRef}{\footnote{Source code at \url{https://github.com/DfAC/NottinghamR_Markdown}.}
+% can't do this in Markdown
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title[md]{Take it easy with markdown}
+\subtitle{NGI Wednesday Seminar Talk}
+
+\author{Lukasz K Bonenberg}
+%\institute{\thisDocRef}
+%\date{\today}
+\date{12/10/16}
+
