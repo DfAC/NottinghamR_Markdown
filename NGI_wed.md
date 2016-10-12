@@ -35,7 +35,7 @@ Welcome. My name is. A bit of personal story:
 
 </div>
 
-## Questionnaire results
+## [Questionnaire results](http://bit.ly/GeoSeminarQ)
 
 * Most interest in:
 	* general understanding
