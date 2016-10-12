@@ -18,7 +18,7 @@ To compile presentation you need:
 
 To build:
 
-* for a PDF version, [available here](http://www.slideshare.net/LukaszKosmaBonenberg/nottingamr-presentation), type in terminal: `pandoc --slide-level 2 -H head.tex -B body.tex -t beamer presentation.md -V theme:metropolis -o output.pdf`
+* for a [PDF version](http://www.slideshare.net/LukaszKosmaBonenberg/nottingamr-presentation), type in terminal: `pandoc --slide-level 2 -H head.tex -B body.tex -t beamer presentation.md -V theme:metropolis -o output.pdf`
 * ioslides version open **presentation.md** in RStudio and click *Compile to HTML*. This option will be automatically selected based on the header settings.
 * standard document,
 	* type `pandoc presentation.md -o output.html` , or
@@ -26,7 +26,7 @@ To build:
 
 # How to compile NGI Wednesday research series presentation
 
-* to build PDF type `pandoc --slide-level 2 -H head_NGI.tex -B body_NGI.tex -t beamer NGI_wed.md -V theme:metropolis -o 161012_NGI_wedSeminar.pdf` ;
+* to build [PDF](http://www.slideshare.net/LukaszKosmaBonenberg/take-it-easy-with-markdown) type `pandoc --slide-level 2 -H head_NGI.tex -B body_NGI.tex -t beamer NGI_wed.md -V theme:metropolis -o 161012_NGI_wedSeminar.pdf` ;
 * for other modes check notes above.
 
 # Report

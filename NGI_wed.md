@@ -260,9 +260,9 @@ Examples:
 	+ [guide](http://rogerdudler.github.io/git-guide/)
 	+ [try yourself](https://try.github.io/levels/1/challenges/10)
 * R
-  + [RMarkdown](http://rmarkdown.rstudio.com/)
-  + [ioslides](http://rmarkdown.rstudio.com/ioslides_presentation_format.html)
-  + [knit](https://sachsmc.github.io/knit-git-markr-guide/knitr/knit.html)
+	+ [RMarkdown](http://rmarkdown.rstudio.com/)
+	+ [ioslides](http://rmarkdown.rstudio.com/ioslides_presentation_format.html)
+	+ [knit](https://sachsmc.github.io/knit-git-markr-guide/knitr/knit.html)
 
 ## Thank you
 
