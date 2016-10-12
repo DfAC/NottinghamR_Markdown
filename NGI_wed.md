@@ -1,20 +1,18 @@
 ---
-#title: Take it easy with markdown
-#author:
-#- LKB
 fontsize: 11pt
 #output: ioslides_presentation
-output: html_document
+# output: html_document
+# title: Take it easy with markdown
+# author: LKB
+# institute: NGI Wednesday Seminar Talk
 <!-- output:
   beamer_presentation:
     theme: metropolis
     slide_level: 2
     includes:
-      in_header: head.tex
-      before_body: body.tex
-      after_body: tail.tex
-      keep_tex: true -->
-
+      in_header: head_NGI.tex
+      before_body: body_NGI.tex
+      # after_body: tail.tex -->
 ---
 
 
@@ -22,14 +20,12 @@ output: html_document
 
 <div class="notes">
 
-[NottinghamR talk](http://www.meetup.com/NottinghamR-Nottingham-R-Users-Group/events/232383634/)
 
 Welcome. My name is. A bit of personal story:
 
-* I started with Word for MSc
 * Latex for PhD, found it amazing and extremely frustrating
-* at similar time discovered interactive RStudio, python
-* looked into simplifying my presentations
+* looked into simplifying my presentations and automating work and keeping lid on documents
+* discovered interactive RStudio, python
 
 * 'f' enable fullscreen mode
 * 'w' toggle widescreen mode
@@ -37,19 +33,17 @@ Welcome. My name is. A bit of personal story:
 * 'h' enable code highlight mode
 * 'p' show presenter notes
 
-
 </div>
 
 ## Questionnaire results
 
-![<http://bit.ly/RMeetupNottingham>](./pics/questionnaire.jpg){ width=80% }
-
 * Most interest in:
 	* general understanding
-	* making presentation + report
-* more RStudio users than Microsoft Office
-	* git and Markdown more popular than Latex or Beamer
-	* More RMarkdown users than Markdown !
+	* making presentation
+  * why would I use those tools instead of MS Office?
+* everybody use Microsoft Office or equivalent
+	* Latex and git reasonably known
+	* Markdown not known
 
 
 ## Latex vs Word
@@ -95,8 +89,6 @@ Microsoft Office user argue:
 
 </div>
 
-
-
 # Re-framing the question
 
 ## Change
@@ -122,11 +114,6 @@ The aim behind this talk is to address the balance between those two statements.
 
 ![Content is king](https://pixabay.com/static/uploads/photo/2013/07/18/10/56/graph-163509_960_720.jpg)
 
-
-## Sum of all parts
-
-![Complexity vs time spend](http://www.intmath.com/blog/wp-content/images/2015/03/exponential-curve.png)
-
 ## Who send what?
 
 ![Entropy builds up](./pics/disaster.jpg)
@@ -142,29 +129,12 @@ The aim behind this talk is to address the balance between those two statements.
 * report_05_finalFinal_FINAL.doc
 * report_05_finalFinal_FINAL_send.doc
 
-## Social aspect
+## Sum of all parts
 
-![https://rpubs.com/ykashou92/eq_wmap](http://i0.wp.com/david-lallemant.com/wp-content/uploads/2014/10/EQ_Website.jpeg){ width=70% }
-
-* [Hawkers in Singapore](https://rpubs.com/JoshMah/168498)
-* [interactive plots](https://plot.ly/r/)
-
-## Deep Work
-
-![<http://calnewport.com/books/deep-work/>](http://www.evidenceinmotion.com/wp-content/uploads/2016/04/Deep-Work.jpg)
-
-
-## Big guys open source
-
-![](pics/Tensorflow.png)
+![How easy is to maintain document](http://www.intmath.com/blog/wp-content/images/2015/03/exponential-curve.png)
 
 
 # Tools
-
-## RStudio
-
-![](https://teespring-storecontent.s3.amazonaws.com/FW6s2ljYB6HuZgDe15SiOQ_store_header_image)
-
 
 ## Markdown - Keep it simple
 
@@ -176,7 +146,6 @@ The aim behind this talk is to address the balance between those two statements.
  Markdown was created to simplify HTML, but with the right tools, your Markdown files can easily be converted to many different formats!
 
 </div>
-
 
 ## One to rule them all
 
@@ -209,7 +178,7 @@ The aim behind this talk is to address the balance between those two statements.
 ![complexity vs effort](http://www.intmath.com/blog/wp-content/images/2015/03/exponential-curve.png)
 
 
-## Markdown - its too flexible
+## Markdown - it's too flexible
 
 ![Spoil for choice?](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Gelato_in_Las_Vegas_in_2007.jpg/1280px-Gelato_in_Las_Vegas_in_2007.jpg "")
 
@@ -219,21 +188,69 @@ There are too many ways of doing things and too many flavours of markdown.
 
 </div>
 
+# Some upsides
+
+## Deep Work
+
+![<http://calnewport.com/books/deep-work/>](http://www.evidenceinmotion.com/wp-content/uploads/2016/04/Deep-Work.jpg)
+
+## Maintaining research
+
+The 2014 [Good Enough Practices in Scientific Computing](https://arxiv.org/abs/1609.00037v1) paper highlight need for:
+
+* Data Management
+* Software management
+* Collaboration + project management
+
+## Maintaining research
+
+**Reproducible research**  - scientific claims, are published with their data and software code so that others may verify the findings and build upon them^[Roger Peng, Johns Hopkins University].
+
+Examples:
+
+* Gravitational Wave - <http://bit.ly/LIGO_OS>
+* Stanford Exploration Project - <http://sepwww.stanford.edu/>
+* West Virginia University's Computer vision Lab - <http://www.csee.wvu.edu/~xinl/>
+* open source papers - <http://bit.ly/1MbL6C9>
+
+## Open Source
+
+![Power of many](./pics/git-OS.png)
+
+# Examples
+
+## Team work
+
+![<https://www.atlassian.com/git/tutorials/>](pics/Git_flow.png)
+
+## Auto-grading using git
+
+![Sebastien Saunier's auto-grader <http://bit.ly/1MQLSo9>](pics/git_teaching.png)
+
+## Social aspect
+
+![https://rpubs.com/ykashou92/eq_wmap](http://i0.wp.com/david-lallemant.com/wp-content/uploads/2014/10/EQ_Website.jpeg){ width=70% }
+
+* [Hawkers in Singapore](https://rpubs.com/JoshMah/168498)
+* [interactive plots](https://plot.ly/r/)
+
+## Big guys do it
+
+![](pics/Tensorflow.png)
+
 
 # Summary
 
 ## Take away notes
 
-* Markdown is one of 20-80 tools - it will cover most of problems with small effort
+* There is a need for reproducible research
+* Markdown is one of 20-80 tools - it will cover most of problems with a small effort
 * content beats visuals
+* data management and fidelity is important
 * set of small dedicated tools allows for better flexibility and low entropy
 
 ## useful links
 
-* R
-	+ [RMarkdown](http://rmarkdown.rstudio.com/)
-	+ [ioslides](http://rmarkdown.rstudio.com/ioslides_presentation_format.html)
-	+ [knit](https://sachsmc.github.io/knit-git-markr-guide/knitr/knit.html)
 * [Online markdown](http://dillinger.io/)
 * Pandoc
 	+ [try online](http://pandoc.org/try/)
@@ -241,14 +258,16 @@ There are too many ways of doing things and too many flavours of markdown.
 * git
 	+ [guide](http://rogerdudler.github.io/git-guide/)
 	+ [try yourself](https://try.github.io/levels/1/challenges/10)
-
+* R
+  + [RMarkdown](http://rmarkdown.rstudio.com/)
+  + [ioslides](http://rmarkdown.rstudio.com/ioslides_presentation_format.html)
+  + [knit](https://sachsmc.github.io/knit-git-markr-guide/knitr/knit.html)
 
 ## Thank you
 
-Can you fill in the feedback at <http://bit.ly/LKBFeedback>?
+I hope you learn something new today.
 
+It would be great to get feedback at <http://bit.ly/LKB_FB>.
 
+Code is at <https://github.com/DfAC/NottinghamR_Markdown>.
 
-lkbonenberg@gmail.com
-
-@LKBLab
