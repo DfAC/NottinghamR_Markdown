@@ -1,9 +1,10 @@
-# NottinghamR Markdown Presentation
+Markdown Presentations
+=====
 
 This is a code is for my markdown presentations. Currently this repo holds two presentations:
 
-* NottinghamR one from the 11/10/16, discussing RMarkdown;
-* NGI Wednesday research series ones.
+* [NottinghamR](https://www.meetup.com/NottinghamR-Nottingham-R-Users-Group/events/232383634/) one, from the 11/10/16, discussing RMarkdown;
+* NGI Wednesday research series ones discussing Markdown and RMarkdown.
 
 # Prerequisites
 
