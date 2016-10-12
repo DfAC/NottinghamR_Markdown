@@ -1,6 +1,6 @@
 ---
 fontsize: 11pt
-#output: ioslides_presentation
+output: ioslides_presentation
 # output: html_document
 # title: Take it easy with markdown
 # author: LKB
@@ -251,10 +251,11 @@ Examples:
 
 ## useful links
 
-* [Online markdown](http://dillinger.io/)
+* [Try markdown online](http://dillinger.io/)
 * Pandoc
 	+ [try online](http://pandoc.org/try/)
 	+ [check demos](http://pandoc.org/demos.html)
+	+ <http://www.sphinx-doc.org>
 * git
 	+ [guide](http://rogerdudler.github.io/git-guide/)
 	+ [try yourself](https://try.github.io/levels/1/challenges/10)
@@ -270,4 +271,3 @@ I hope you learn something new today.
 It would be great to get feedback at <http://bit.ly/LKB_FB>.
 
 Code is at <https://github.com/DfAC/NottinghamR_Markdown>.
-
