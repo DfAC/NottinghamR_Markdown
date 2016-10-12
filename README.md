@@ -1,6 +1,9 @@
 # NottinghamR Markdown Presentation
 
-This is a code is for my [NottinghamR](http://www.meetup.com/NottinghamR-Nottingham-R-Users-Group/events/232383634/) presentation from the 11/10/16, discussing RMarkdown.
+This is a code is for my markdown presentations. Currently this repo holds two presentations:
+
+* NottinghamR one from the 11/10/16, discussing RMarkdown;
+* NGI Wednesday research series ones.
 
 # Prerequisites
 
@@ -10,7 +13,7 @@ To compile presentation you need:
 * [Latex compiler](https://miktex.org/)
 * [Beamer Metropolis theme](https://github.com/matze/mtheme)
 
-# How to compile presentation
+# How to compile NottinghamR presentation
 
 To build:
 
@@ -18,7 +21,12 @@ To build:
 * ioslides version open **presentation.md** in RStudio and click *Compile to HTML*. This option will be automatically selected based on the header settings.
 * standard document,
 	* type `pandoc presentation.md -o output.html` , or
-	* in file header change `output: ioslides_presentation` to `output: html_document`
+	* in file header change `output: ioslides_presentation` to `output: html_document` and compile in RStudio.
+
+# How to compile NGI Wednesday research series presentation
+
+* to build PDF type `pandoc --slide-level 2 -H head_NGI.tex -B body_NGI.tex -t beamer NGI_wed.md -V theme:metropolis -o 161012_NGI_wedSeminar.pdf` ;
+* for other modes check notes above.
 
 # Report
 
