@@ -14,7 +14,7 @@ To compile presentation you need:
 * [Latex compiler](https://miktex.org/)
 * [Beamer Metropolis theme](https://github.com/matze/mtheme)
 
-# How to compile NottinghamR presentation
+## How to compile NottinghamR presentation
 
 To build:
 
@@ -24,7 +24,7 @@ To build:
 	* type `pandoc presentation.md -o output.html` , or
 	* in file header change `output: ioslides_presentation` to `output: html_document` and compile in RStudio.
 
-# How to compile NGI Wednesday research series presentation
+## How to compile NGI Wednesday research series presentation
 
 * to build [PDF](http://www.slideshare.net/LukaszKosmaBonenberg/take-it-easy-with-markdown) type `pandoc --slide-level 2 -H head_NGI.tex -B body_NGI.tex -t beamer NGI_wed.md -V theme:metropolis -o 161012_NGI_wedSeminar.pdf` ;
 * for other modes check notes above.
@@ -32,3 +32,8 @@ To build:
 # Report
 
 More information about the presented report can be found at [my blog](http://dfac.github.io/code/2016/02/16/Writing-Articles-with-Markdown/).
+
+# Math equations
+
+You can also include latex style equations in markdown. Examples in *math.md* demonstrate both in-line `$...$` and standalone `$$...$$` approach.
+
