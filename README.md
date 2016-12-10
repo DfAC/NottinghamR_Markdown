@@ -36,4 +36,3 @@ More information about the presented report can be found at [my blog](http://dfa
 # Math equations
 
 You can also include latex style equations in markdown. Examples in *math.md* demonstrate both in-line `$...$` and standalone `$$...$$` approach.
-
